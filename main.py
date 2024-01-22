@@ -11,7 +11,7 @@ pipeline = AutoPipelineForText2Image.from_pretrained(
 
 
 image = pipeline(
-	"stained glass of darth vader, backlight, centered composition, masterpiece, photorealistic, 8k").images[0]
+	"stained glass of kermit the frog, backlight, centered composition, masterpiece, photorealistic, 8k").images[0]
 #image
 # image.save("yoda-pokemon.png")
 # image
