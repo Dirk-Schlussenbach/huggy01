@@ -6,4 +6,6 @@ pipeline = AutoPipelineForText2Image.from_pretrained(
 ).to("cuda")
 generator = torch.Generator("cuda").manual_seed(31)
 image = pipeline("Astronaut in a jungle, cold color palette, muted colors, detailed, 8k", generator=generator).images[0]
-image
+
+image.show()
+image = image.save("geeks.jpg")
