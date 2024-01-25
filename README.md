@@ -9,3 +9,7 @@ conda update -n base -c defaults conda
 git add .
 git commit -m "feat: api endpoints for model query " 
 git push origin main 
+
+
+---------------------Music------------------------
+pip install --upgrade diffusers transformers accelerate
